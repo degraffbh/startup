@@ -1,4 +1,4 @@
-# Vibe Check
+# Vibe Check 🎵
 
 A collaborative music jukebox program that allows users to listen to music together.
 
