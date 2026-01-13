@@ -14,7 +14,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Do you and your friends like music but you all want to play your own songs? Our application Vibe Check will allow you and your friends to share and listen to music together with a real-time global jukebox where users vote on the next song to be played in a public digital space. It’s a live democracy for background music. Users can serach for songs to add to the digital que, and users can upvote and downvote songs to be played next. It keeps things fair and concise. 
+Do you and your friends like music but you all want to play your own songs? Our application Vibe Check will allow you and your friends to share and listen to music together with a real-time global jukebox where users vote on the next song to be played in a public digital space. It’s a live democracy for background music. Users can serach for songs to add to the digital que, and users can upvote and downvote songs to be played next. It keeps things fair and concise and allows everyone to enjoy music together. 
 
 ### Design
 
