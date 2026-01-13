@@ -20,8 +20,6 @@ Do you and your friends like music but you all want to play your own songs? Our 
 
 <img width="869" height="357" alt="diagramcs" src="https://github.com/user-attachments/assets/fe20e9ef-32f9-4117-b32f-861cd965b9d0" />
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ### Key features
 
 - Login and account system
