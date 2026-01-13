@@ -1,23 +1,12 @@
-# Your startup name here
-
-[My Notes](notes.md)
+# Vibe Check
 
 A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-> [!NOTE]
-> This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
-
-> [!NOTE]
-> If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
-
 ## 🚀 Specification Deliverable
-
-> [!NOTE]
-> Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
+- [x] Proper use of Markdown
 - [ ] A concise and compelling elevator pitch
 - [ ] Description of key features
 - [ ] Description of how you will use each technology
@@ -25,7 +14,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Do you and your friends like music but you all want to play your own songs? Our application Vibe Check will allow you and your friends to share and listen to music together with a real-time global jukebox where users vote on the next song to be played in a public digital space. It’s a live democracy for background music. Users can serach for songs to add to the digital que, and users can upvote and downvote songs to be played next. It keeps things fair and concise. 
 
 ### Design
 
@@ -42,20 +31,21 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Login and account system
+- Ability to search up songs using Youtube API
+- Ability to upvove and downvote songs
+- Ability to chat with others online
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for the actual jukebox. 
+- **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
+- **React** - Highly reactive UI that will animate song cards as they shuffle positions in the queue based on WebSocket data, as well as the react-youtube library will allow songs to be searched and played. 
+- **Service** - Backend server will act as a middleman between your React app and Google’s servers, and contains endpoints for login, songs, upvotes, and downvotes. 
+- **DB/Login** - Store users, songs, and votes in database. Register and login users. Credentials securely stored in database. Can't use jukebox unless authenticated.
+- **WebSocket** - As each user as adds songs or upvotes/downvotes a song, it is displayed to all users. 
 
 ## 🚀 AWS deliverable
 
