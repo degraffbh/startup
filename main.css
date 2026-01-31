@@ -18,7 +18,7 @@ body {
 
 header {
   flex: 0 50px;
-  background: hsl(295, 81%, 24%);
+  background: hsl(295, 96%, 11%);
   color: white;
 
   display: flex;
@@ -30,6 +30,7 @@ header {
 header h1 {
   font-family: "Lobster", sans-serif;
   padding-left: 1%;
+  transform: translateY(3px);
 }
 
 nav {
@@ -65,16 +66,49 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("background.jpg");
+  background: linear-gradient(to right bottom, #6e009d, #2b102c, #1c0020);
+}
+
+main h1 {
+  color: white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.login {
+  padding-top: 1%;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 1em;
+  color: #999;  
+  padding-left: 2%; 
+}
+
+button {
+  position: relative;
+  left: 32%;
+  bottom: -5%;
 }
 
 footer {
   flex: 0 50px;
-  background: hsl(180, 30%, 15%);
+  background: hsl(295, 96%, 11%);
   color: white;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+
+footer span, footer a {
+  
+  padding: 0.25%;
   align-items: center;
 }
